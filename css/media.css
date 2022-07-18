@@ -1,0 +1,115 @@
+/* Desktop */
+@media (min-width:825px) and (max-width:2440px){
+    .footer-tablet {
+        display: none;
+    }
+
+    .footer-mobile{
+        display: none;
+    }
+
+    .planes-mobile{
+        display:none;
+    }
+    .testimonios-mobile{
+        display: none;
+    }
+
+    .quienes-mobile{
+        display: none;
+    }
+
+
+
+}
+
+/* Tablet */
+
+@media (min-width:535px) and (max-width:824px){
+
+    .footer-desktop {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: none;
+    }
+
+    .planes-desktop{
+        display: none;
+    }
+
+    .planes-mobile{
+        display:block;
+    }
+
+    .testimonios-desktop{
+        display: none;
+    }
+
+    .testimonios-mobile{
+        display:block;
+    }
+
+    .quienes-somos{
+        display: none;
+    }
+    .quienes-mobile{
+        width: 100%;
+        margin:0!important;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+      }
+}
+
+/* Mobile */
+
+@media (min-width:200px) and (max-width:534px){
+
+    .footer-desktop {
+        display: none;
+    }
+
+    .footer-tablet{
+        display: none;
+    }
+
+    .planes-desktop {
+        display: none;
+    }
+
+    .planes-tablet{
+        display: none;
+    }
+
+    .nav-footer h4{
+        display: none;
+    }
+
+    .diseñadores{
+        display: none;
+    }
+
+    .testimonios-desktop{
+        display: none;
+    }
+
+    .testimonios-mobile{
+        display:block;
+    }
+
+    .quienes-somos{
+        display: none;
+    }
+    .quienes-mobile{
+        width: 100%;
+        margin:0!important;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+
+}
